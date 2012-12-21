@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddaa9952-fcfe-49b7-8990-324aee395023" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/collections/projects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/models/project.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/views/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TaskManager.html" afterPath="$PROJECT_DIR$/src/TaskManager.html" />
     </list>
     <ignored path="TaskManagerLocal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +63,7 @@
       <file leaf-file-name="TaskManager.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TaskManager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="596" selection-end="601" vertical-scroll-proportion="-2.8431373">
+            <state line="20" column="25" selection-start="596" selection-end="601" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,7 +126,7 @@
       <file leaf-file-name="projects.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/collections/projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="41" selection-start="296" selection-end="296" vertical-scroll-proportion="0.2989011">
               <folding />
             </state>
           </provider>
@@ -211,6 +205,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -369,7 +364,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -651,28 +645,21 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/routers/router.js">
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/todos.js">
+    <entry file="file://$PROJECT_DIR$/src/TaskManager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="0" selection-end="2370" vertical-scroll-proportion="0.0">
+        <state line="20" column="25" selection-start="596" selection-end="601" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+    <entry file="file://$PROJECT_DIR$/src/js/collections/todos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -684,9 +671,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/collections/todos.js">
+    <entry file="file://$PROJECT_DIR$/src/js/views/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="24" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="0" selection-end="2370" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -705,16 +699,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TaskManager.html">
+    <entry file="file://$PROJECT_DIR$/src/js/routers/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="596" selection-end="601" vertical-scroll-proportion="-2.8431373">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/collections/projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="41" selection-start="296" selection-end="296" vertical-scroll-proportion="0.2989011">
           <folding />
         </state>
       </provider>
