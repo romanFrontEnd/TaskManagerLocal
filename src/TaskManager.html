@@ -27,6 +27,14 @@
 		<p>Written by <a href="https://github.com/addyosmani">Addy Osmani</a></p>
 		<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 	</div>
+
+    <div id="tasks">
+        <header id="head">
+        	<h1>Tasks</h1>
+        	<input id="new-task" placeholder="What needs to be done?" autofocus>
+       </header>
+    </div>
+
 	<script type="text/template" id="item-template">
 		<div class="view">
 			<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
@@ -52,6 +60,12 @@
 		<button id="clear-completed">Clear completed (<%= completed %>)</button>
 		<% } %>
 	</script>
+
+    <script type="text/template" id="tasks-template">
+        <input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
+        <label><%- title %></label>
+        <button class="destroy"></button>
+	</script>
 	<script src="assets/base.js"></script>
 	<script src="assets/jquery.min.js"></script>
 	<script src="assets/lodash.min.js"></script>
@@ -60,6 +74,9 @@
 	<script src="js/models/todo.js"></script>
 	<script src="js/collections/todos.js"></script>
 	<script src="js/views/todos.js"></script>
+    <script src="js/models/tasks.js"></script>
+    <script src="js/collections/tasks.js"></script>
+    <script src="js/views/tasks.js"></script>
 	<script src="js/views/app.js"></script>
 	<script src="js/routers/router.js"></script>
 	<script src="js/app.js"></script>

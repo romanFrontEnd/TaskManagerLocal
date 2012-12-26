@@ -7,13 +7,13 @@ $(function() {
 	// --------------
 
 	// The DOM element for a todo item...
-	app.TodoView = Backbone.View.extend({
+	app.TaskView = Backbone.View.extend({
 
 		//... is a list tag.
 		tagName:  'li',
 
 		// Cache the template function for a single item.
-		template: _.template( $('#item-template').html() ),
+		template: _.template( $('#tasks-template').html() ),
 
 		// The DOM events specific to an item.
 		events: {
@@ -39,7 +39,7 @@ $(function() {
 			this.$el.toggleClass( 'completed', this.model.get('completed') );
 
 			this.toggleVisible();
-			this.input = this.$('.edit');
+			//this.input = this.$('.edit');
 			return this;
 		},
 

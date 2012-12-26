@@ -27,6 +27,7 @@
 		<p>Written by <a href="https://github.com/addyosmani">Addy Osmani</a></p>
 		<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 	</div>
+    <div id="tasks"/>
 	<script type="text/template" id="item-template">
 		<div class="view">
 			<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
@@ -50,6 +51,24 @@
 		</ul>
 		<% if (completed) { %>
 		<button id="clear-completed">Clear completed (<%= completed %>)</button>
+		<% } %>
+	</script>
+
+    <script type="text/template" id="Tasks-template">
+		<span id="taks-count"><strong><%= remaining %></strong> <%= remaining === 1 ? 'item' : 'items' %> left</span>
+		<ul id="tasks-filters">
+			<li>
+				<a class="selected" href="#/">All</a>
+			</li>
+			<li>
+				<a href="#/active">Active</a>
+			</li>
+			<li>
+				<a href="#/completed">Completed</a>
+			</li>
+		</ul>
+		<% if (completed) { %>
+		<button id="tasks-clear-completed">Clear completed (<%= completed %>)</button>
 		<% } %>
 	</script>
 	<script src="assets/base.js"></script>
